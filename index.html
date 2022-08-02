@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <!-- -------------------------------------------CSS----------------------------- -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+        <img src="./images/img/menu-btn.png" alt="image" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- ------------------------------------------------EVENTS------------------------------------------ -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <img src="./images/img/img1.png" alt="image">
+                <h4>Everest Camp Trek</h4>
+                <p>The Everest Base Camp Trek, is one of the most famous Trek in Nepal, which is famous for its
+                    fantastic mountain peaks and the beauty on the hills. Most of the places to this spot go through
+                    ridges and trails, but you would have ample space to rest and have meal on your way.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col-2">
+                <img src="./images/img/img2.png" alt="image">
+                <h4>Walking Holidays</h4>
+                <p>Walking from one set point to another each day, your luggage delivered to your next destination in
+                    time for your arrival each evening, is most people’s idea of a classic walking holiday.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THW WORLD</h1>
+            <div class="line"></div>
+            <P>There’s nothing I love more than touring a city with someone who lives there and knows the place inside
+                out.
+                It makes for a great travel companion, and it’s much more personal than doing an expensive or mainstream
+                tour.Live life as a local, and you’ll get a far better experience. In my experience, most people love to
+                host family and friends in their homes, especially those who have come a long way to visit them.</P>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>India is an indulgence for a traveler. One nation has spectacular range of attractions. In its
+                    geographical boundaries it covers snow laded mountains, scorching deserts, lush valleys, gorgeous
+                    beaches, vibrant cities, serene wildlife sanctuaries, historical sites and every attraction one can
+                    imagine. India offers limitless options.</P>
+                    <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./images/img/img3.png" alt="image">
+                    <img src="./images/img/img4.png" alt="image">
+                    <img src="./images/img/img5.png" alt="image">
+                    <img src="./images/img/img6.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Al-126, 3rd floor, Shalimar Bagh, New Delhi | Mobile:9310445881 | Email: dubeyaj1626@gmail.com</p>
+        <p>Copyright  2021 Aj Outdoor Adventure</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
